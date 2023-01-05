@@ -1,0 +1,182 @@
+/* *{ 
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes white-crc{ 
+    0%{ 
+    left: 0;
+    }
+    50%{ 
+
+    }
+    100%{ 
+        left: 500px;
+    }
+}
+body{ 
+    background-image: url(https://cdn.wallpapersafari.com/76/28/HqzPwk.gif);
+    background-repeat: no-repeat;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+   justify-content: center;
+   animation-name: white-crc;
+   animation-duration: 4s;
+   
+}
+.osnova{ 
+    color: aliceblue;
+    margin-top: 10px;
+    justify-content: center;
+    text-align: center; 
+    font-size: 6em;
+    text-shadow: 0 0 10px;
+
+    
+}
+.current{ 
+    margin-top: 100px;
+    width: 100%;
+    height: 50%;
+    border-radius: 0.7em ;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    text-align: center;
+    border: 1px solid black;
+    background-color: rgba(255, 255,255, 0.7);
+    display: flex;
+    flex-direction: column;
+}
+.gorod{ 
+    margin-top: 100px;
+    width: 100%;
+    height: 50%;
+    border-radius: 0.7em ;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    text-align: center;
+    border: 1px solid black;
+    background-color: rgba(255, 255,255, 0.7);
+    display: flex;
+    flex-direction: column;
+}
+.gorod2{ 
+    margin-top: 100px;
+    width: 100%;
+    height: 50%;
+    border-radius: 0.7em ;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    text-align: center;
+    border: 1px solid black;
+    background-color: rgba(255, 255,255, 0.7);
+    display: flex;
+    flex-direction: column;
+} */
+/* @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=PT+Sans:wght@700&family=Roboto&display=swap');
+*{ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.current{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{ 
+    font-size: 3em;
+}
+.description , .feels { 
+    font-size: 1.5em;
+}
+select{ 
+    width: 200px;
+    height: 40px;
+    font-size: 2em;
+    border: none;
+    text-align: center;
+}
+
+.hourly{ 
+    display: flex;
+    width: 90%;
+    overflow: scroll;
+}
+
+.hour{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+*{ 
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box; 
+} 
+body{ 
+    height: fit-content; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    font-family: 'Roboto', sans-serif; 
+} 
+.current{ 
+    text-align: center; 
+} 
+.hourly, .daily{ 
+    background-color: rgba(255, 255, 255, 0.416); 
+    border-radius: 10px; 
+    padding: 10px; 
+} 
+.description{ 
+    display: flex; 
+    flex-direction: column; 
+} 
+.currentTemp{ 
+    font-size: 48px; 
+} 
+.hourly{ 
+    display: flex; 
+    text-align: center; 
+    width: 50%; 
+    overflow: scroll; 
+    margin: 40px 0; 
+} 
+body{ 
+    background-color: darkseagreen;
+} 
+.daily{ 
+    width: 50%; 
+} 
+.day{ 
+    width: 100%; 
+    display: flex; 
+    justify-content: space-evenly; 
+    align-items: center; 
+} 
+.nameDay{ 
+    width: 25%; 
+} 
+select{ 
+    width: 150px; 
+    height: 40px; 
+    font-size: 2em; 
+    border: none; 
+    text-align: center; 
+    background-color: rgba(133, 201, 228, 0.562); 
+} 
+@media (max-width: 576px) { 
+    .daily{ 
+        width: 90%; 
+    } 
+    .hourly{ 
+        width: 90%; 
+    } 
+}
